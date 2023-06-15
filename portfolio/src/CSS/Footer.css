@@ -1,10 +1,13 @@
 footer{
     background-color: #93a3b1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
-button{
+.icoBtn{
     transform: scale(1.3);
 }
-button:hover{
+.icoBtn:hover{
     transform: scale(1.6) rotate(-10deg);
     transition: all 0.4s ease-in-out 0s
 }

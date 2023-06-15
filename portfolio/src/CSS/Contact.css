@@ -1,0 +1,9 @@
+.formBg{
+    background-color: #4c443c;
+}
+.submitBtn{
+    background-color: #93a3b1;
+}
+.submitBtn:hover{
+    background-color: #7c898b;
+}
