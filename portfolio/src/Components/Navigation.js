@@ -1,11 +1,11 @@
 import React from "react";
 import "../CSS/Header.css";
 
-export default function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-        <li className="nav-item">
+        <li className="nav-item up">
           <a 
           href="#about" 
           onClick={() => handlePageChange('About')}
@@ -14,7 +14,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             About Me
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item up">
           <a  
           href="#portfolio" 
           onClick={() => handlePageChange('Portfolio')}
@@ -22,7 +22,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item up">
           <a  
           href="#contact" 
           onClick={() => handlePageChange('Contact')}
@@ -30,7 +30,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item up">
           <a  
           href="#resume" 
           onClick={() => handlePageChange('Resume')}
@@ -42,3 +42,5 @@ export default function NavTabs({ currentPage, handlePageChange }) {
     </div>
   );
 }
+
+export default NavTabs;

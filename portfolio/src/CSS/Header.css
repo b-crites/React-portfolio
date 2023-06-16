@@ -2,3 +2,8 @@ nav{
     background-color: #93a3b1;
     color: #93a3b1;
 }
+.up:hover, .up:active{
+
+    transform: translateY(-3px);
+
+}

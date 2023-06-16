@@ -18,7 +18,8 @@ img:hover{
     align-items: center;
 }
 @media screen and (max-width: 844px) {
-    img{
-        width: 100%;
+    .center{
+        position: relative;
+        bottom: 20%;
     }
 }

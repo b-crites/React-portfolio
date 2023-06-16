@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../CSS/Header.css';
 import NavTabs from "./Navigation";

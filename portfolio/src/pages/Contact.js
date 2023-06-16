@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/Contact.css";
 
-export default function Form() {
+export default function Contact() {
   return (
     <div className="center">
       <div className="formBg p-3 m-5 rounded">

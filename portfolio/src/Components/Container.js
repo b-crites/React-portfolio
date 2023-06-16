@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import NavTabs from "./Navigation";
 import About from "../Pages/About"
-import Portfolio from "../Pages/Portfolio";
-import Contact from "../Pages/Portfolio";
+import Portfolio from '../Pages/Portfolio'
+import Contact from "../Pages/Contact";
 import Resume from "../Pages/Resume";
 
 export default function Container() {
@@ -17,7 +17,7 @@ export default function Container() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
-    }
+    }else
     return <Resume />;
   };
 
@@ -29,7 +29,6 @@ export default function Container() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-
       {renderPage()}
     </div>
   );

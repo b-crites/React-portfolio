@@ -12,3 +12,12 @@ footer{
     transition: all 0.4s ease-in-out 0s
 }
    
+
+@media screen and (max-width: 844px) {
+    
+footer{
+display: none;
+}
+
+    
+}
