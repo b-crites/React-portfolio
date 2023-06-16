@@ -17,7 +17,7 @@ export default function Container() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
-    }else
+    }
     return <Resume />;
   };
 

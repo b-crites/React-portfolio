@@ -1,7 +1,9 @@
 import React from "react";
 import "../CSS/Header.css";
 
-function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs({ currentPage, handlePageChange }) {
+
+  
   return (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
@@ -43,4 +45,3 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;

@@ -2,7 +2,7 @@ nav{
     background-color: #93a3b1;
     color: #93a3b1;
 }
-.up:hover, .up:active{
+.up:hover, .up:active, .up:focus{
 
     transform: translateY(-3px);
 
