@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS/Header.css";
 
 export default function NavTabs({ currentPage, handlePageChange }) {
-
+  
   
   return (
     <div className="collapse navbar-collapse" id="navbarNav">

@@ -1,9 +1,9 @@
-img{
+.spin{
     width: 60%;
     height: auto;
 }
 
-img:hover{
+.spin:hover{
     transform:rotate(360deg);
     transition: all 1.2s ease-in-out .4s;
 }

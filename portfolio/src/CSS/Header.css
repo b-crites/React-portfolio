@@ -4,6 +4,7 @@ nav{
 }
 .up:hover, .up:active, .up:focus{
 
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 
 }
+

@@ -10,16 +10,16 @@ export default function App() {
   return (
     
     <>
-    <div>
-    <Header>
+    
+    <Header />
     <NavTabs />
-    </Header>
+    
 
     <Container />
 
     
     <Footer />
-    </div>
+    
     </>
     
   );
