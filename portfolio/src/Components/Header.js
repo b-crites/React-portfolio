@@ -5,7 +5,7 @@ import NavTabs from "./Navigation";
 
 
 
-const Header = () =>{
+const Header = ({ currentPage, handlePageChange }) =>{
   
     return(
         <>
@@ -16,7 +16,7 @@ const Header = () =>{
       <span className="navbar-toggler-icon"></span>
     </button>
     
-    <NavTabs />
+    <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
   
   </div>
 

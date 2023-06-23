@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import NavTabs from "./Navigation";
-import About from "../Pages/About"
-import Portfolio from '../Pages/Portfolio'
-import Contact from "../Pages/Contact";
-import Resume from "../Pages/Resume";
+import About from "./About"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact";
+import Resume from "./Resume";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState("About");
