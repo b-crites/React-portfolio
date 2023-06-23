@@ -21,7 +21,7 @@ export default function Resume(){
 
         <>
         <h2 className="m-3">Take a look at my resume</h2>
-        <button onClick={pdf} className="btn submitBtn">Download</button>
+        <button onClick={pdf} className=" m-3 btn submitBtn">Download</button>
         </>
        
     )

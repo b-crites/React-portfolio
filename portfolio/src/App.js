@@ -1,6 +1,5 @@
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import NavTabs from './Components/Navigation';
 import { useState } from 'react';
 import About from './Components/About';
 import Contact from './Components/Contact';
@@ -12,7 +11,7 @@ import './CSS/App.css';
 
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("Portfolio");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
     if (currentPage === "About") {
