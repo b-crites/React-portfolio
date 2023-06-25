@@ -1,10 +1,15 @@
 import React from "react";
-import '../CSS/Project.css'
+import "../CSS/Project.css";
 
 function Project(props) {
   return (
     <div className="card m-4" style={{ width: "20rem" }}>
-      <img src={props.img} className="card-img-top" width="300px" alt="Projects Screenshot" />
+      <img
+        src={props.img}
+        className="card-img-top"
+        width="300px"
+        alt="Projects Screenshot"
+      />
       <div className="card-body icon">
         <h3 className="card-title">{props.title}</h3>
         <div className="container-md row">

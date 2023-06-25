@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavTabs from "./Navigation";
-import About from "./About"
-import Portfolio from "./Portfolio"
+import About from "./About";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
 
@@ -24,12 +24,9 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-      <>
-      <NavTabs
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
+    <>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      </>
+    </>
   );
 }

@@ -16,11 +16,11 @@ function Portfolio() {
       gitLink: "https://github.com/b-crites/Project4",
     },
     {
-        img: require("../img/Workday.png"),
-        title: "WorkDay Scheduler",
-        deployLink: "https://b-crites.github.io/Project5/",
-        gitLink: "https://github.com/b-crites/Project5",
-    }
+      img: require("../img/Workday.png"),
+      title: "WorkDay Scheduler",
+      deployLink: "https://b-crites.github.io/Project5/",
+      gitLink: "https://github.com/b-crites/Project5",
+    },
   ];
 
   return (
