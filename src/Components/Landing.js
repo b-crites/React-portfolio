@@ -33,7 +33,7 @@ export default function Landing(){
 
                 {/* <h1 className="typed landingFont">Brandon Crites.</h1> */}
 
-                <span className="landingFont typed-cursor" ref={el} />
+                <span className="landingFont typed-cursor mb-6" ref={el} />
                 {/* <div className="landingBtn">
                     <button className=" btn bg-light">Contact</button>
                 </div> */}

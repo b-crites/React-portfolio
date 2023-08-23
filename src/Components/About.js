@@ -18,7 +18,7 @@ export default function About() {
               damping: 20,
             
             }}
-            className="rounded-circle img-fluid img-thumbnail m-4 spin"
+            className="hide rounded-circle img-fluid img-thumbnail m-4 spin"
             src={ProfilePic}
             alt="Myself"
           />
@@ -29,7 +29,8 @@ export default function About() {
         viewport={{once:true}}
         
         
-        className="m-5">
+        
+        className="m-5 mediaBox">
           <div className="articleBg p-4 rounded">
             <h1>Hey There!</h1>
             <p className="fs-3">

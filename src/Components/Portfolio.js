@@ -37,7 +37,7 @@ initial={{opacity:0, x:'-30%'}}
 whileInView={{opacity:1, x:0, transition:{duration:2}}}
 viewport={{once:true}}
       
-      className="fs-1 center projectUnderline">Projects</motion.h1>
+      className=" center projectUnderline">Projects</motion.h1>
       <div
       
       className="flex-row">

@@ -1,0 +1,7 @@
+.projectUnderline{
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    color: black;
+    text-underline-offset: 22px;
+    font-size: 80px;
+}

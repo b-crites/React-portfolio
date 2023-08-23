@@ -5,11 +5,9 @@ import NavTabs from "./Navigation";
 const Header = ({ currentPage, handlePageChange }) => {
   return (
     <>
-      <nav className="navbar fs-5">
+      <nav className="navbar fs-5 sticky-top navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="./">
-            Brandon Crites
-          </a>
+          
           <button
             className="navbar-toggler"
             type="button"

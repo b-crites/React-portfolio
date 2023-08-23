@@ -16,11 +16,25 @@
 .gridCenter{
     display: grid;
     place-items: center;
-    transform: translateY(-7%);
+    
 }
 @media screen and (max-width: 844px) {
     .center{
         position: relative;
         
+    }
+    .hide{
+        display: none;
+    }
+
+    .mediaBox{
+        font-size: 16px;
+        margin-bottom: auto;
+    }
+    .mediaFlex{
+
+        display: flex;
+        flex-direction: column;
+       
     }
 }
