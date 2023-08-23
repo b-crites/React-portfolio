@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 export default function Footer() {
   return (
     <>
-      <footer className="text-center text-lg-start mt-2">
+      <footer className="text-center text-lg-start mt-2 position-static bottom-0">
         <div className="container d-flex justify-content-center py-5">
           <button
             onClick={() => {

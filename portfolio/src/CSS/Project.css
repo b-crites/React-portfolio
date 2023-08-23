@@ -1,0 +1,6 @@
+.projectUnderline{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    color: black;
+    text-underline-offset: 10px;
+}

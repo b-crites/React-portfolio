@@ -3,10 +3,6 @@
     height: auto;
 }
 
-.spin:hover{
-    transform:rotate(360deg);
-    transition: all 1.2s ease-in-out .4s;
-}
 .articleBg{
     background-color: #4c443c;
     color: whitesmoke;
@@ -17,9 +13,14 @@
     justify-content: center;
     align-items: center;
 }
+.gridCenter{
+    display: grid;
+    place-items: center;
+    transform: translateY(-7%);
+}
 @media screen and (max-width: 844px) {
     .center{
         position: relative;
-        bottom: 20%;
+        
     }
 }

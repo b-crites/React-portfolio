@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio";
 import Resume from "./Components/Resume";
 
 import "./CSS/App.css";
+import Landing from "./Components/Landing";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -28,8 +29,13 @@ export default function App() {
 
   return (
     <>
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <>{renderPage()}</>
+      <Landing />
+      {/* <Header /> */}
+      <About />
+      <Portfolio />
+      <Contact />
+      <Resume />
+      
       <Footer />
     </>
   );

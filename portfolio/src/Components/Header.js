@@ -5,7 +5,7 @@ import NavTabs from "./Navigation";
 const Header = ({ currentPage, handlePageChange }) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg fs-5">
+      <nav className="navbar fs-5">
         <div className="container-fluid">
           <a className="navbar-brand" href="./">
             Brandon Crites

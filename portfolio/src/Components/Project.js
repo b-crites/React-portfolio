@@ -1,9 +1,17 @@
 import React from "react";
 import "../CSS/Project.css";
+import {motion} from 'framer-motion'
 
 function Project(props) {
   return (
-    <div className="card m-4" style={{ width: "20rem" }}>
+    <>
+    <div className="vh-100 gridCenter">
+    <motion.div 
+    
+    initial={{opacity:0, x:'-30%'}}
+       whileInView={{opacity:1, x:0, transition:{duration:2}}}
+       viewport={{once:true}}
+    className="card " style={{ width: "20rem" }}>
       <img
         src={props.img}
         className="card-img-top"
@@ -32,7 +40,19 @@ function Project(props) {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
+    <div className="d-flex">
+
+<motion.h2
+initial={{opacity:0, x:'-30%'}}
+whileInView={{opacity:1, x:0, transition:{duration:2}}}
+viewport={{once:true}}
+
+className="text-black fs-1 "> {props.description}</motion.h2>
+      </div>
+      </div>
+    </>
+
   );
 }
 
