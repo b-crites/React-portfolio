@@ -27,6 +27,15 @@ function Portfolio() {
     },
   ];
 
+  const clientData = [
+
+    {
+      img: require("../img/Velez.png"),
+      title: "VPS Psychiatry",
+      deployLink: "https://www.vps-psychiatry.com"
+    }
+  ]
+
   return (
     
     <div className="">
@@ -37,7 +46,7 @@ initial={{opacity:0, x:'-30%'}}
 whileInView={{opacity:1, x:0, transition:{duration:2}}}
 viewport={{once:true}}
       
-      className=" center projectUnderline">Projects</motion.h1>
+      className=" center projectUnderline pb-5">Projects</motion.h1>
       <div
       
       className="flex-row">
@@ -52,6 +61,31 @@ viewport={{once:true}}
             description={project.description}
           />
         ))}
+      </div>
+
+      <div>
+<motion.h1 
+className="center projectUnderline pb-5"
+initial={{opacity:0, x:'-30%'}}
+whileInView={{opacity:1, x:0, transition:{duration:2}}}
+viewport={{once:true}}
+>Client Work</motion.h1>
+
+<div
+      
+      className="flex-row">
+        {clientData.map((project, index) => (
+          <Project
+          
+            key={index}
+            img={project.img}
+            title={project.title}
+            deployLink={project.deployLink}
+            description={project.description}
+          />
+        ))}
+      </div>
+
       </div>
     </div>
     

@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 function Project(props) {
   return (
     <>
-    <div className="vh-100 gridCenter">
+    <div className="py-4 gridCenter">
     <motion.div 
     
     initial={{opacity:0, x:'-30%'}}
@@ -43,14 +43,10 @@ function Project(props) {
     </motion.div>
     <div className="d-flex">
 
-<motion.h2
-initial={{opacity:0, x:'-30%'}}
-whileInView={{opacity:1, x:0, transition:{duration:2}}}
-viewport={{once:true}}
+      </div>
+      </div>
 
-className="text-black fs-1 "> {props.description}</motion.h2>
-      </div>
-      </div>
+    
     </>
 
   );

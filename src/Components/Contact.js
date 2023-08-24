@@ -3,13 +3,13 @@ import "../CSS/Contact.css";
 
 export default function Contact() {
   return (
-    <div className="center">
+    <div className="vh-100 center">
       <div className="formBg p-3 m-5 rounded">
         <div className="row m-3">
           <div className="col-md-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control mb-2"
               placeholder="First name"
               aria-label="First name"
             />
@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="col-md-3">
             <input
               type="text"
-              className="form-control"
+              className="form-control mb-2"
               placeholder="Last name"
               aria-label="Last name"
             />
