@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.2f976f04.css",
-    "main.js": "/React-portfolio/static/js/main.67cdf362.js",
+    "main.css": "/React-portfolio/static/css/main.f88dec68.css",
+    "main.js": "/React-portfolio/static/js/main.ae22c34f.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Velez.png": "/React-portfolio/static/media/Velez.2fa2b25ee942ba96d342.png",
     "static/media/QuizImg.png": "/React-portfolio/static/media/QuizImg.0cbf4ebb2ed5ae1f04f7.png",
     "static/media/ProfilePic.jpg": "/React-portfolio/static/media/ProfilePic.2c01b0257ac33dc0f746.jpg",
     "static/media/Workday.png": "/React-portfolio/static/media/Workday.23f743a318bdb770bda6.png",
     "static/media/Bookclub.png": "/React-portfolio/static/media/Bookclub.bbc3db45c34cd516ae09.png",
     "index.html": "/React-portfolio/index.html",
-    "main.2f976f04.css.map": "/React-portfolio/static/css/main.2f976f04.css.map",
-    "main.67cdf362.js.map": "/React-portfolio/static/js/main.67cdf362.js.map",
+    "main.f88dec68.css.map": "/React-portfolio/static/css/main.f88dec68.css.map",
+    "main.ae22c34f.js.map": "/React-portfolio/static/js/main.ae22c34f.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f976f04.css",
-    "static/js/main.67cdf362.js"
+    "static/css/main.f88dec68.css",
+    "static/js/main.ae22c34f.js"
   ]
 }
