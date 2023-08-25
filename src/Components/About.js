@@ -10,7 +10,7 @@ export default function About() {
         <div className="center">
           <motion.img
             initial={{ scale:0 ,opacity: 0 }}
-            whileInView={{ scale:1,opacity: 1, transition:{duration: .8}}}
+            whileInView={{ scale:1,opacity: 1, transition:{duration: 1}}}
             viewport={{once:true}}
             transition={{
               type: "spring",
@@ -25,14 +25,14 @@ export default function About() {
         </div>
         <motion.div
         initial={{opacity:0, x:"30%"}}
-        whileInView={{opacity:1, x:0, transition:{duration:.75}}}
+        whileInView={{opacity:1, x:0, transition:{duration:1}}}
         viewport={{once:true}}
         
         
         
         className="m-5 mediaBox">
           <div className="articleBg p-4 rounded">
-            <h1>Hey There!</h1>
+          
             <p className="fs-3">
               Welcome to my portfolio website! Take a look around and explore
               some of my projects I have created!
@@ -43,7 +43,7 @@ export default function About() {
             </p>
             <p className="fs-3">
               To get in touch with me you can either head to the Contact section
-              and send me a message or take a look at my LinkedIn and message me
+              or take a look at my LinkedIn and message me
               there!
             </p>
           </div>

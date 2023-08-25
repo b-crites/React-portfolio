@@ -4,9 +4,10 @@
 }
 
 .articleBg{
-    background-color: #4c443c;
+    background-color: black;
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .center{
     display: flex;

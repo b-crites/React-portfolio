@@ -1,3 +1,4 @@
 body{
-  background-image: linear-gradient(to bottom right, black, grey, black);
+  background-image: linear-gradient(to bottom right, black, grey);
+  animation: Gradient 6s ease infinite;
 }

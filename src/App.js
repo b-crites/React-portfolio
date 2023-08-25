@@ -1,16 +1,18 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import Resume from "./Components/Resume";
-
-import "./CSS/App.css";
+import Skills from "./Components/Skills";
 import Landing from "./Components/Landing";
+import "./CSS/App.css";
+
 
 export default function App() {
 
+  
 
 
   return (
@@ -18,9 +20,12 @@ export default function App() {
       <Landing />
       <Header /> 
       <About />
+      <Skills />
       <Portfolio />
-      <Contact />
-      <Resume />
+     
+      <Contact  />
+     
+      
       
       <Footer />
     </>

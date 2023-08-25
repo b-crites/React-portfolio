@@ -29,7 +29,12 @@ export default function Landing(){
 
     return(
         <div className="gridCenter text-white vh-100 bg-black">
-            <div  className="typeContainer">
+            <div className="typeContainer">
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
 
                 {/* <h1 className="typed landingFont">Brandon Crites.</h1> */}
 

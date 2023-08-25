@@ -38,7 +38,7 @@ function Portfolio() {
 
   return (
     
-    <div className="">
+    <div className="portfolio">
 
       <motion.h1
 
