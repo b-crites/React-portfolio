@@ -1,8 +1,10 @@
 .skillsBox{
     background-color: black;
-    width: 40%;
+    width: 35%;
     height: auto;
     border-radius: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 ul{
     list-style-type: none;

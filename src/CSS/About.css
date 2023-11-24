@@ -1,6 +1,6 @@
 .spin{
     width: 60%;
-    height: auto;
+    overflow: hidden;
 }
 
 .articleBg{

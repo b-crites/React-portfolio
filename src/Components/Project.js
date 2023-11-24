@@ -20,24 +20,19 @@ function Project(props) {
       />
       <div className="card-body icon">
         <h3 className="card-title">{props.title}</h3>
-        <div className="container-md row">
-          <a
-            href={props.deployLink}
+        <div className="container-md">
+          <a href={props.deployLink}
             target="_blank"
-            rel="noopener noreferrer"
-            className="card-link link-secondary link-underline-opacity-0"
+            rel="noopener noreferrer">
+          <button
+            
+            className="px-3 py-2 w-100 bg-gray btn"
           >
-            Deploy
+            Launch
+          </button>
           </a>
 
-          <a
-            href={props.gitLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-secondary link-underline-opacity-0"
-          >
-            Github
-          </a>
+          
         </div>
       </div>
     </motion.div>

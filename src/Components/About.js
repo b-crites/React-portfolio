@@ -1,31 +1,26 @@
 import React from "react";
 import "../CSS/About.css";
 import {motion} from "framer-motion"
-import ProfilePic from "../img/ProfilePic.jpg";
+import ProfilePic from "../img/NewHeader.jpg";
 
 export default function About() {
   return (
+    <div id="about" className="mb-5">
     <div className="img-container vh-100 gridCenter">
       <article className="d-flex">
         <div className="center">
           <motion.img
-            initial={{ scale:0 ,opacity: 0 }}
-            whileInView={{ scale:1,opacity: 1, transition:{duration: 1}}}
+            initial={{ opacity: 0 }}
+            whileInView={{ scale:1,opacity: 1, transition:{duration: 2.5}}}
             viewport={{once:true}}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            
-            }}
             className="hide rounded-circle img-fluid img-thumbnail m-4 spin"
             src={ProfilePic}
-            alt="Myself"
+            alt="Picture of myself"
           />
         </div>
         <motion.div
-        initial={{opacity:0, x:"30%"}}
-        whileInView={{opacity:1, x:0, transition:{duration:1}}}
+        initial={{opacity:0}}
+        whileInView={{opacity:1, transition:{duration:1}}}
         viewport={{once:true}}
         
         
@@ -49,6 +44,7 @@ export default function About() {
           </div>
         </motion.div>
       </article>
+    </div>
     </div>
   );
 }

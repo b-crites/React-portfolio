@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/Footer.css";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
+import {FaMedium } from "react-icons/fa6"
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           <button
             onClick={() => {
               window.open(
-                "https://www.linkedin.com/in/brandon-crites-542a48212"
+                "https://www.linkedin.com/in/brandon-crites-542a48212/"
               );
             }}
             type="button"
@@ -30,6 +31,17 @@ export default function Footer() {
           >
             <i>
               <FaGithub />
+            </i>
+          </button>
+          <button
+            onClick={() => {
+              window.open("https://medium.com/@brandoncrites76");
+            }}
+            type="button"
+            className="btn btn-lg btn-floating icoBtn mx-2"
+          >
+            <i>
+              <FaMedium />
             </i>
           </button>
         </div>

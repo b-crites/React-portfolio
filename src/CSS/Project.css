@@ -4,6 +4,10 @@
     color: black;
     text-underline-offset: 22px;
     font-size: 80px;
-    font-family:sans-serif;
-    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.bg-gray{
+    background-color: gray;
 }

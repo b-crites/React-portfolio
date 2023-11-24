@@ -7,6 +7,8 @@ import Portfolio from "./Components/Portfolio";
 import Resume from "./Components/Resume";
 import Skills from "./Components/Skills";
 import Landing from "./Components/Landing";
+import Marketing from "./Components/Marketing";
+
 import "./CSS/App.css";
 
 
@@ -19,9 +21,10 @@ export default function App() {
     <>
       <Landing />
       <Header /> 
-      <About />
-      <Skills />
+       <About />
+      {/* <Skills /> */}
       <Portfolio />
+      <Marketing />
      
       <Contact  />
      
