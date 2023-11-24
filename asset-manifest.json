@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.be655aef.css",
-    "main.js": "/React-portfolio/static/js/main.93377324.js",
+    "main.css": "/React-portfolio/static/css/main.f7d3cca1.css",
+    "main.js": "/React-portfolio/static/js/main.5a83d00b.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Velez.png": "/React-portfolio/static/media/Velez.2fa2b25ee942ba96d342.png",
-    "static/media/QuizImg.png": "/React-portfolio/static/media/QuizImg.0cbf4ebb2ed5ae1f04f7.png",
-    "static/media/ProfilePic.jpg": "/React-portfolio/static/media/ProfilePic.2c01b0257ac33dc0f746.jpg",
-    "static/media/Workday.png": "/React-portfolio/static/media/Workday.23f743a318bdb770bda6.png",
-    "static/media/Bookclub.png": "/React-portfolio/static/media/Bookclub.bbc3db45c34cd516ae09.png",
+    "static/media/vps2ss.png": "/React-portfolio/static/media/vps2ss.f5d606737a8bf743b6c5.png",
+    "static/media/NewHeader.jpg": "/React-portfolio/static/media/NewHeader.0bf96114391a35fac170.jpg",
+    "static/media/MelanieWebsite.png": "/React-portfolio/static/media/MelanieWebsite.914119c5013504e99b52.png",
+    "static/media/moutainWicksLogo.png": "/React-portfolio/static/media/moutainWicksLogo.d72dec29d9aaba459260.png",
     "index.html": "/React-portfolio/index.html",
-    "main.be655aef.css.map": "/React-portfolio/static/css/main.be655aef.css.map",
-    "main.93377324.js.map": "/React-portfolio/static/js/main.93377324.js.map",
+    "main.f7d3cca1.css.map": "/React-portfolio/static/css/main.f7d3cca1.css.map",
+    "main.5a83d00b.js.map": "/React-portfolio/static/js/main.5a83d00b.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be655aef.css",
-    "static/js/main.93377324.js"
+    "static/css/main.f7d3cca1.css",
+    "static/js/main.5a83d00b.js"
   ]
 }
