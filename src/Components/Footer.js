@@ -9,6 +9,7 @@ export default function Footer() {
       <footer className="text-center text-lg-start mt-2 position-static bottom-0">
         <div className="container d-flex justify-content-center py-5">
           <button
+          aria-label="LinkedIn"
             onClick={() => {
               window.open(
                 "https://www.linkedin.com/in/brandon-crites-542a48212/"
@@ -23,6 +24,7 @@ export default function Footer() {
           </button>
 
           <button
+          aria-label="Github"
             onClick={() => {
               window.open("https://github.com/b-crites");
             }}
@@ -34,6 +36,7 @@ export default function Footer() {
             </i>
           </button>
           <button
+          aria-label="Medium"
             onClick={() => {
               window.open("https://medium.com/@brandoncrites76");
             }}

@@ -26,7 +26,7 @@ viewport={{once:true}}
             className="">
                 <a href="https://www.mountainwicks.com/"target="_blank"
             rel="noopener noreferrer">
-                <img className="w-25 mediaWidth" src={MountainWicksLogo} alt="Mountain Wicks Logo" />
+                <img className="w-25 h-auto mediaWidth" src={MountainWicksLogo} alt="Mountain Wicks Logo" />
                 </a>
             </motion.div>
         </div>
