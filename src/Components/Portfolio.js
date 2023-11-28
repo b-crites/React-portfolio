@@ -64,7 +64,7 @@ viewport={{once:true}}
 
       <div>
 <motion.h1 
-className="center projectUnderline pb-5"
+className="center projectUnderline  pb-5"
 initial={{opacity:0, x:'-30%'}}
 whileInView={{opacity:1, x:0, transition:{duration:2}}}
 viewport={{once:true}}

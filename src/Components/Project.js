@@ -26,7 +26,7 @@ function Project(props) {
             rel="noopener noreferrer">
           <button
             
-            className="px-3 py-2 w-100 bg-gray btn"
+            className=" w-100 bg-white btn-outline-dark btn"
           >
             Launch
           </button>

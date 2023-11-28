@@ -8,6 +8,7 @@
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+    
 }
 .center{
     display: flex;
@@ -31,6 +32,8 @@
     .mediaBox{
         font-size: 16px;
         margin-bottom: auto;
+        width: 100%;
+        font-size: medium;
     }
     .mediaFlex{
 
@@ -38,4 +41,5 @@
         flex-direction: column;
        
     }
+    
 }
