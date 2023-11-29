@@ -46,16 +46,6 @@ function NavTabs() {
             Contact
           </a>
         </li>
-        <li className="nav-item up">
-          <a
-            href="#resume"
-            className={
-             "nav-link "
-            }
-          >
-            Resume
-          </a>
-        </li>
       </ul>
     </div>
   );
